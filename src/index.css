@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
 
 :root{
-    --yellow-theme-backround-color :#F0F8FF;
+    --yellow-theme-backround-color : white;
     --yellow-theme-main-color:#00308F  ;
     --yellow-theme-sub-text-colot: #ffffff;
     --yellow-theme-nav-backfround-color: #18181818;
