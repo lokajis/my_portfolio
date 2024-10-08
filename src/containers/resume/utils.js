@@ -1,17 +1,16 @@
 export const data = {
     experience: [
       {
-        title: "Demi Chef de Partie",
-        subTitle: "Storchen, Zurich",
-        description: "Working in the kitchen as a Demi Chef de Partie, responsible for various tasks including meal preparation and kitchen management."
-        ,date: "4/2024 - Present"
-    },
-      {
         title: "Full-stack Web Developer",
         subTitle: "Freelance (2020 - Present)",
         description: "Developing custom web solutions, full-stack applications, and dynamic websites in parallel with my current role. Creating RESTful APIs, integrating third-party services, utilizing Git for version control, and deploying applications using cloud services."
       ,date: "8/2023 - Present"
-    },
+    }, {
+      title: "Demi Chef de Partie",
+      subTitle: "Storchen, Zurich",
+      description: "Working in the kitchen as a Demi Chef de Partie, responsible for various tasks including meal preparation and kitchen management."
+      ,date: "4/2024 - Present"
+  },
       {
         title: "Special Forces NCO",
         subTitle: "National Guard of Cyprus",
