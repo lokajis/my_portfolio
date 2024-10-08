@@ -33,13 +33,16 @@ const data = [
     }
 ]
 
-
 const Navbar = (props) => {
+
     const [toggleIcon, setToggleIcon] = useState(false);
 
+
     const handleToggleIcon = () => {
-        setToggleIcon(!toggleIcon);
-        props.navStatus(toggleIcon);
+        if (window.innerWidth < 770) {
+            setToggleIcon(!toggleIcon);
+            props.navStatus(toggleIcon);
+        }
     }
 
 
@@ -56,7 +59,7 @@ const Navbar = (props) => {
                 <ul className={`navbar__container__menu ${toggleIcon ? 'active' : ''}`} >
                     {
                         data.map((item, key) => (
-                            <li onClick={handleToggleIcon} key={key} className="navbar__container__menu__item">
+                            <li key={key} onClick={handleToggleIcon} className="navbar__container__menu__item">
                                 <Link className="navbar__container__menu__item__links" to={item.to}>
                                     {item.label}
                                 </Link>
@@ -73,7 +76,7 @@ const Navbar = (props) => {
                 </div>
             </nav>
 
-        </div>)
+        </div >)
 }
 
 export default Navbar;
