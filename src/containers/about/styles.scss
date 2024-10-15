@@ -106,14 +106,16 @@
   }
   
   @media only screen and (max-width : 768px){
-  
+    .about__content{
+      width: 100%;}
+      
+      
     .about__content__personalWrapper ul > li span.title, .about__content__personalWrapper ul > li span.value {
         font-size: 14px;
     }
     
       .about__content{
           flex-direction: column;
-  
           &__personalWrapper,
           &__servicesWrapper {
             width: 100%;

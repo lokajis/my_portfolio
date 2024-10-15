@@ -4,27 +4,27 @@ export const skillsData = [
       data: [
         {
           skillName: "HTML",
-          percentage: "90",  
-        },
-        {
-          skillName: "CSS",
-          percentage: "50",  
-        },
-        {
-          skillName: "JavaScript",
-          percentage: "75",  
-        },
-        {
-          skillName: "React",
           percentage: "80",  
         },
         {
-          skillName: "Bootstrap",
+          skillName: "CSS",
           percentage: "70",  
         },
         {
-          skillName: "Tailwind CSS",
+          skillName: "JavaScript",
+          percentage: "67",  
+        },
+        {
+          skillName: "React",
           percentage: "60",  
+        },
+        {
+          skillName: "Bootstrap",
+          percentage: "50",  
+        },
+        {
+          skillName: "Tailwind CSS",
+          percentage: "50",  
         },
       ],
     },
@@ -33,7 +33,7 @@ export const skillsData = [
       data: [
         {
           skillName: "Node.js",
-          percentage: "70",  
+          percentage: "60",  
         },
         {
           skillName: "Express",
@@ -41,11 +41,7 @@ export const skillsData = [
         },
         {
           skillName: "Python",
-          percentage: "60",  // Recently studied and LeetCode practice
-        },
-        {
-          skillName: "PostgreSQL",
-          percentage: "65",  
+          percentage: "55",  // Recently studied and LeetCode practice
         },
         {
           skillName: "REST APIs",
@@ -53,11 +49,11 @@ export const skillsData = [
         },
         {
           skillName: "Google OAuth",
-          percentage: "60",  
+          percentage: "40",  
         },
         {
             skillName: "EJS",
-            percentage: "50",  
+            percentage: "60",  
           },
       ],
     },
