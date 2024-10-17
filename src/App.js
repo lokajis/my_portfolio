@@ -11,6 +11,7 @@ import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim"; // if you are going to use `loadSlim`, install the "@tsparticles/slim" package too.
 import particles from './utils.js/particles';
 import './App.scss'; 
+import ReadMessages from './containers/readMessages';
 
 function App() {
   //status if the navbar is open or not to deactivate or activate the pages befind
@@ -70,6 +71,7 @@ const renderPartticleJsInHomePage = location.pathname === '/' ;
         <Route path='/skills' element={<Skills />} />
         <Route path='/portofolio' element={<Portofolio />} />
         <Route path='/Contact' element={<Contact />} />
+        <Route path='/messeges' element={<ReadMessages />} />
 
       </Routes>
 

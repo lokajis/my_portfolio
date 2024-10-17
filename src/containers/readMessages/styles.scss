@@ -1,0 +1,17 @@
+.list{
+    display: flex;
+flex-direction: column;
+width: 80%;
+}
+
+.messages{
+    color: var(--yellow-theme-sub-text-color);
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1em;
+    letter-spacing: 0.5px;
+    position: relative;
+    padding: 5px 10px;
+    border-bottom: 2px solid var(--yellow-theme-main-color);
+}
