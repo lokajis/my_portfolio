@@ -24,7 +24,7 @@ const Contact = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        fetch("http://127.0.0.1:5000/send_message", {
+        fetch("https://server-personal-portfolio-2.onrender.com/send_message", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
